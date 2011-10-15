@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B0E5D3144919A9007EEBE5 /* betting_evaluation.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5CF144919A9007EEBE5 /* betting_evaluation.cc */; };
+		D0B0E5D4144919A9007EEBE5 /* bot_i_generator.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5D1144919A9007EEBE5 /* bot_i_generator.cc */; };
+		D0B0E5DD144919B9007EEBE5 /* buyin_prompt.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5D5144919B9007EEBE5 /* buyin_prompt.cc */; };
+		D0B0E5DE144919B9007EEBE5 /* card.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5D7144919B9007EEBE5 /* card.cc */; };
+		D0B0E5DF144919B9007EEBE5 /* deck.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5D9144919B9007EEBE5 /* deck.cc */; };
+		D0B0E5E0144919B9007EEBE5 /* hand_setup.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5DB144919B9007EEBE5 /* hand_setup.cc */; };
+		D0B0E5F8144919E1007EEBE5 /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5E1144919E1007EEBE5 /* main.cc */; };
+		D0B0E5F9144919E1007EEBE5 /* new_deal.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5E2144919E1007EEBE5 /* new_deal.cc */; };
+		D0B0E5FA144919E1007EEBE5 /* new_hand.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5E4144919E1007EEBE5 /* new_hand.cc */; };
+		D0B0E5FB144919E1007EEBE5 /* new_round.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5E6144919E1007EEBE5 /* new_round.cc */; };
+		D0B0E5FC144919E1007EEBE5 /* on_the_clock_initiator.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5E8144919E1007EEBE5 /* on_the_clock_initiator.cc */; };
+		D0B0E5FD144919E1007EEBE5 /* on_the_clock_prompt.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5EA144919E1007EEBE5 /* on_the_clock_prompt.cc */; };
+		D0B0E5FE144919E1007EEBE5 /* player_bet.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5EC144919E1007EEBE5 /* player_bet.cc */; };
+		D0B0E5FF144919E1007EEBE5 /* player_hand.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5EE144919E1007EEBE5 /* player_hand.cc */; };
+		D0B0E600144919E1007EEBE5 /* player.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5F0144919E1007EEBE5 /* player.cc */; };
+		D0B0E601144919E1007EEBE5 /* pot.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5F2144919E1007EEBE5 /* pot.cc */; };
+		D0B0E602144919E1007EEBE5 /* showdown.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5F4144919E1007EEBE5 /* showdown.cc */; };
+		D0B0E603144919E1007EEBE5 /* validate_user_bet_amount.cc in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5F6144919E1007EEBE5 /* validate_user_bet_amount.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0B0E5CF144919A9007EEBE5 /* betting_evaluation.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = betting_evaluation.cc; sourceTree = "<group>"; };
+		D0B0E5D0144919A9007EEBE5 /* betting_evaluation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = betting_evaluation.h; sourceTree = "<group>"; };
+		D0B0E5D1144919A9007EEBE5 /* bot_i_generator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bot_i_generator.cc; sourceTree = "<group>"; };
+		D0B0E5D2144919A9007EEBE5 /* bot_i_generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bot_i_generator.h; sourceTree = "<group>"; };
+		D0B0E5D5144919B9007EEBE5 /* buyin_prompt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = buyin_prompt.cc; sourceTree = "<group>"; };
+		D0B0E5D6144919B9007EEBE5 /* buyin_prompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buyin_prompt.h; sourceTree = "<group>"; };
+		D0B0E5D7144919B9007EEBE5 /* card.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = card.cc; sourceTree = "<group>"; };
+		D0B0E5D8144919B9007EEBE5 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		D0B0E5D9144919B9007EEBE5 /* deck.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deck.cc; sourceTree = "<group>"; };
+		D0B0E5DA144919B9007EEBE5 /* deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deck.h; sourceTree = "<group>"; };
+		D0B0E5DB144919B9007EEBE5 /* hand_setup.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hand_setup.cc; sourceTree = "<group>"; };
+		D0B0E5DC144919B9007EEBE5 /* hand_setup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hand_setup.h; sourceTree = "<group>"; };
+		D0B0E5E1144919E1007EEBE5 /* main.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		D0B0E5E2144919E1007EEBE5 /* new_deal.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_deal.cc; sourceTree = "<group>"; };
+		D0B0E5E3144919E1007EEBE5 /* new_deal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = new_deal.h; sourceTree = "<group>"; };
+		D0B0E5E4144919E1007EEBE5 /* new_hand.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_hand.cc; sourceTree = "<group>"; };
+		D0B0E5E5144919E1007EEBE5 /* new_hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = new_hand.h; sourceTree = "<group>"; };
+		D0B0E5E6144919E1007EEBE5 /* new_round.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = new_round.cc; sourceTree = "<group>"; };
+		D0B0E5E7144919E1007EEBE5 /* new_round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = new_round.h; sourceTree = "<group>"; };
+		D0B0E5E8144919E1007EEBE5 /* on_the_clock_initiator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = on_the_clock_initiator.cc; sourceTree = "<group>"; };
+		D0B0E5E9144919E1007EEBE5 /* on_the_clock_initiator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = on_the_clock_initiator.h; sourceTree = "<group>"; };
+		D0B0E5EA144919E1007EEBE5 /* on_the_clock_prompt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = on_the_clock_prompt.cc; sourceTree = "<group>"; };
+		D0B0E5EB144919E1007EEBE5 /* on_the_clock_prompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = on_the_clock_prompt.h; sourceTree = "<group>"; };
+		D0B0E5EC144919E1007EEBE5 /* player_bet.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player_bet.cc; sourceTree = "<group>"; };
+		D0B0E5ED144919E1007EEBE5 /* player_bet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player_bet.h; sourceTree = "<group>"; };
+		D0B0E5EE144919E1007EEBE5 /* player_hand.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player_hand.cc; sourceTree = "<group>"; };
+		D0B0E5EF144919E1007EEBE5 /* player_hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player_hand.h; sourceTree = "<group>"; };
+		D0B0E5F0144919E1007EEBE5 /* player.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cc; sourceTree = "<group>"; };
+		D0B0E5F1144919E1007EEBE5 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		D0B0E5F2144919E1007EEBE5 /* pot.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pot.cc; sourceTree = "<group>"; };
+		D0B0E5F3144919E1007EEBE5 /* pot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pot.h; sourceTree = "<group>"; };
+		D0B0E5F4144919E1007EEBE5 /* showdown.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = showdown.cc; sourceTree = "<group>"; };
+		D0B0E5F5144919E1007EEBE5 /* showdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showdown.h; sourceTree = "<group>"; };
+		D0B0E5F6144919E1007EEBE5 /* validate_user_bet_amount.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = validate_user_bet_amount.cc; sourceTree = "<group>"; };
+		D0B0E5F7144919E1007EEBE5 /* validate_user_bet_amount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validate_user_bet_amount.h; sourceTree = "<group>"; };
+		D0FC9DF9144913EB00A67F0C /* Lagzilla */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lagzilla; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Lagzilla */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0E60514491A1D007EEBE5 /* Headers */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Lagzilla;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0E5CF144919A9007EEBE5 /* betting_evaluation.cc */,
+				D0B0E5D1144919A9007EEBE5 /* bot_i_generator.cc */,
+				D0B0E5D5144919B9007EEBE5 /* buyin_prompt.cc */,
+				D0B0E5D7144919B9007EEBE5 /* card.cc */,
+				D0B0E5D9144919B9007EEBE5 /* deck.cc */,
+				D0B0E5DB144919B9007EEBE5 /* hand_setup.cc */,
+				D0B0E5E1144919E1007EEBE5 /* main.cc */,
+				D0B0E5E2144919E1007EEBE5 /* new_deal.cc */,
+				D0B0E5E4144919E1007EEBE5 /* new_hand.cc */,
+				D0B0E5E6144919E1007EEBE5 /* new_round.cc */,
+				D0B0E5E8144919E1007EEBE5 /* on_the_clock_initiator.cc */,
+				D0B0E5EA144919E1007EEBE5 /* on_the_clock_prompt.cc */,
+				D0B0E5F0144919E1007EEBE5 /* player.cc */,
+				D0B0E5EC144919E1007EEBE5 /* player_bet.cc */,
+				D0B0E5EE144919E1007EEBE5 /* player_hand.cc */,
+				D0B0E5F2144919E1007EEBE5 /* pot.cc */,
+				D0B0E5F4144919E1007EEBE5 /* showdown.cc */,
+				D0B0E5F6144919E1007EEBE5 /* validate_user_bet_amount.cc */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FC9DF9144913EB00A67F0C /* Lagzilla */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		D0B0E60514491A1D007EEBE5 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0E5D0144919A9007EEBE5 /* betting_evaluation.h */,
+				D0B0E5D2144919A9007EEBE5 /* bot_i_generator.h */,
+				D0B0E5D6144919B9007EEBE5 /* buyin_prompt.h */,
+				D0B0E5D8144919B9007EEBE5 /* card.h */,
+				D0B0E5DA144919B9007EEBE5 /* deck.h */,
+				D0B0E5DC144919B9007EEBE5 /* hand_setup.h */,
+				D0B0E5E3144919E1007EEBE5 /* new_deal.h */,
+				D0B0E5E5144919E1007EEBE5 /* new_hand.h */,
+				D0B0E5E7144919E1007EEBE5 /* new_round.h */,
+				D0B0E5E9144919E1007EEBE5 /* on_the_clock_initiator.h */,
+				D0B0E5EB144919E1007EEBE5 /* on_the_clock_prompt.h */,
+				D0B0E5F1144919E1007EEBE5 /* player.h */,
+				D0B0E5ED144919E1007EEBE5 /* player_bet.h */,
+				D0B0E5EF144919E1007EEBE5 /* player_hand.h */,
+				D0B0E5F3144919E1007EEBE5 /* pot.h */,
+				D0B0E5F5144919E1007EEBE5 /* showdown.h */,
+				D0B0E5F7144919E1007EEBE5 /* validate_user_bet_amount.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* Lagzilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Lagzilla" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lagzilla;
+			productInstallPath = "$(HOME)/bin";
+			productName = Lagzilla;
+			productReference = D0FC9DF9144913EB00A67F0C /* Lagzilla */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Lagzilla" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Lagzilla */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* Lagzilla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B0E5D3144919A9007EEBE5 /* betting_evaluation.cc in Sources */,
+				D0B0E5D4144919A9007EEBE5 /* bot_i_generator.cc in Sources */,
+				D0B0E5DD144919B9007EEBE5 /* buyin_prompt.cc in Sources */,
+				D0B0E5DE144919B9007EEBE5 /* card.cc in Sources */,
+				D0B0E5DF144919B9007EEBE5 /* deck.cc in Sources */,
+				D0B0E5E0144919B9007EEBE5 /* hand_setup.cc in Sources */,
+				D0B0E5F8144919E1007EEBE5 /* main.cc in Sources */,
+				D0B0E5F9144919E1007EEBE5 /* new_deal.cc in Sources */,
+				D0B0E5FA144919E1007EEBE5 /* new_hand.cc in Sources */,
+				D0B0E5FB144919E1007EEBE5 /* new_round.cc in Sources */,
+				D0B0E5FC144919E1007EEBE5 /* on_the_clock_initiator.cc in Sources */,
+				D0B0E5FD144919E1007EEBE5 /* on_the_clock_prompt.cc in Sources */,
+				D0B0E5FE144919E1007EEBE5 /* player_bet.cc in Sources */,
+				D0B0E5FF144919E1007EEBE5 /* player_hand.cc in Sources */,
+				D0B0E600144919E1007EEBE5 /* player.cc in Sources */,
+				D0B0E601144919E1007EEBE5 /* pot.cc in Sources */,
+				D0B0E602144919E1007EEBE5 /* showdown.cc in Sources */,
+				D0B0E603144919E1007EEBE5 /* validate_user_bet_amount.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Lagzilla;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = Lagzilla;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "Lagzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "Lagzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
