@@ -5,8 +5,8 @@
 
 using namespace std;
 
-//Does not return anything.  Instead, it continues to prompt until it receives a
-//valid bet amount.
+//Returns bet amount as an int.  It continues to prompt the user until it
+//receives a valid bet amount.
 int ValidateUserBetAmount(Player& r_user, Player& r_bot,
                           Pot& r_main_pot, int i) {
   //indicative of a fold
@@ -16,23 +16,12 @@ int ValidateUserBetAmount(Player& r_user, Player& r_bot,
 
   //is user raising?
   else if ((r_user.GetInvestAmount() + i) > r_bot.GetInvestAmount()) {
-    //can user min raise?
+    //can user min-raise?  if so, they must at least min-raise
     if ((r_user.GetInvestAmount() + i) >=
          r_bot.GetInvestAmount() + r_main_pot.GetMinimumRaiseAmount()) {
-      //define pot limit cap
-      int pot_raise = ((2 * (r_bot.GetInvestAmount() -
-                             r_user.GetInvestAmount())) +
-                             r_main_pot.GetPotAmount());
-      if(i <= pot_raise) {
-        return i;
-      }
-      else {
-        //fail
-        cout << "illegal operation (pot limit kiddo)" << endl;
-        cout << "\nEnter wager: ";
-        cin >> i;
-        ValidateUserBetAmount(r_user, r_bot, r_main_pot, i);
-      }
+      //pot-limit logic used to be here, but no-limit rules require no
+      //additional validation
+      return i;
     }
     else {
       //if user betting allin, they do not have to comply with min raise amt
@@ -41,7 +30,7 @@ int ValidateUserBetAmount(Player& r_user, Player& r_bot,
       }
       else {
         //user not allin and is not raising the minimum amount
-        cout << "illegal operation" << endl;
+        cout << "illegal operation (more)" << endl;
         cout << "\nEnter wager: ";
         cin >> i;
         ValidateUserBetAmount(r_user, r_bot, r_main_pot, i);
@@ -55,7 +44,7 @@ int ValidateUserBetAmount(Player& r_user, Player& r_bot,
     }
     else {
       //user not allin and is not matching opponent invest value
-      cout << "illegal operation" << endl;
+      cout << "illegal operation (less)" << endl;
       cout << "\nEnter wager: ";
       cin >> i;
       ValidateUserBetAmount(r_user, r_bot, r_main_pot, i);

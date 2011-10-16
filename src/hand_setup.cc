@@ -33,7 +33,7 @@ void HandSetup(Player& r_user, Player& r_bot, Pot& r_main_pot) {
   ResetPlayerStatuses(r_user, r_bot);
 
   //Deal out all cards
-  NewDeal(r_user, r_bot, r_main_pot);
+  //NewDeal(r_user, r_bot, r_main_pot);
 
   //Check to see if blinds are extracted
   cout << "\nPlayer (after blinds):" << endl;
