@@ -175,13 +175,12 @@ void NoShowdown(Player& r_user, Player& r_bot, Pot& r_main_pot) {
   if (r_user.GetFoldedStatus() == false) {
     int i = r_user.GetStackAmount() + r_main_pot.GetPotAmount();
     r_user.SetStackAmount(i);
-    r_main_pot.SetPotAmount(0);
   }
   else {
     int i = r_bot.GetStackAmount() + r_main_pot.GetPotAmount();
     r_bot.SetStackAmount(i);
-    r_main_pot.SetPotAmount(0);
   }
+  r_main_pot.SetPotAmount(0);
 }
 
 void Showdown(Player& player_1, Player& player_2, Pot& r_main_pot) {
@@ -193,7 +192,7 @@ void Showdown(Player& player_1, Player& player_2, Pot& r_main_pot) {
   if (i == 1) {
     if (player_1.GetInvestAmount() < (r_main_pot.GetPotAmount() / 2)) {
       int x = player_1.GetInvestAmount() * 2;
-      player_1.SetStackAmount(player_1.GetStackAmount() + x);
+      player_1.SetStackAmount(x);
       r_main_pot.SetPotAmount(r_main_pot.GetPotAmount() - x);
       player_2.SetStackAmount(player_2.GetStackAmount() +
                               r_main_pot.GetPotAmount());
@@ -207,7 +206,7 @@ void Showdown(Player& player_1, Player& player_2, Pot& r_main_pot) {
   else if (i == 2) {
     if (player_2.GetInvestAmount() < (r_main_pot.GetPotAmount() / 2)) {
       int x = player_2.GetInvestAmount() * 2;
-      player_2.SetStackAmount(player_2.GetStackAmount() + x);
+      player_2.SetStackAmount(x);
       r_main_pot.SetPotAmount(r_main_pot.GetPotAmount() - x);
       player_1.SetStackAmount(player_1.GetStackAmount() +
                             r_main_pot.GetPotAmount());
